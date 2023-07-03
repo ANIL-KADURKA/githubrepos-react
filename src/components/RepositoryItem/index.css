@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.repository-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: inset;
+  background-color: antiquewhite;
+  height: auto;
+  width: 300px;
+  margin: 15px;
+}
+.head {
+  font-size: 25px;
+}
+.image-element {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.icon-container {
+  font-size: 20;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
